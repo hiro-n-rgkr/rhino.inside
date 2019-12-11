@@ -1,4 +1,4 @@
-<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--
     This section defines project-level properties.
@@ -189,7 +189,7 @@
     <Compile Include="RhinoInsideAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="RhinoInside.Excel_TemporaryKey.pfx" />
+    <None Include="RhinoInside.Excel_1_TemporaryKey.pfx" />
     <None Include="RhinoInsideAddIn.Designer.xml">
       <DependentUpon>RhinoInsideAddIn.cs</DependentUpon>
     </None>
@@ -206,10 +206,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>RhinoInside.Excel_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>RhinoInside.Excel_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>714F7CE014022C95EF8D450F38A6131D577C5D12</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>994AD43ED55EE44D34B0FD8B2EE36ACCBDEC1F1A</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
